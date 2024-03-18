@@ -1,0 +1,38 @@
+This Spark program aims to determine the most popular superhero based on co-appearances in the Marvel Graph dataset.
+Overview:
+
+The goal of this program is to analyze the Marvel Graph dataset to identify the superhero with the highest number of co-appearances with other superheroes.
+Setup:
+
+To run this program, ensure you have the following dependencies installed:
+
+bash
+
+pip install pyspark
+
+Instructions:
+
+    Mount Google Drive: This program assumes the dataset is located in Google Drive. Ensure you mount your Google Drive by running the provided code.
+
+    Load Dataset: Two files are loaded from Google Drive using PySpark's DataFrame API:
+        Marvel Names.txt: Contains superhero IDs and names.
+        Marvel Graph.txt: Represents connections between superheroes.
+
+    Analyze Data:
+        Calculate the number of co-appearances for each superhero.
+        Determine the superhero with the highest number of co-appearances.
+
+    Display Result:
+        Print the name of the most popular superhero along with the number of co-appearances.
+
+Program Structure:
+
+    MostPopularSuperhero.ipynb: Jupyter Notebook containing the program code.
+    Marvel Names.txt: File containing superhero IDs and names.
+    Marvel Graph.txt: File representing connections between superheroes.
+
+Usage:
+
+    Open the Jupyter Notebook MostPopularSuperhero.ipynb.
+    Execute the code cells sequentially.
+    View the output to see the most popular superhero and their co-appearances count.
