@@ -1,0 +1,33 @@
+This Spark program aims to identify the most obscure superheroes based on their minimal number of connections in the Marvel Graph dataset.
+Overview:
+
+The goal of this program is to analyze the Marvel Graph dataset to determine the superheroes with the fewest connections to other superheroes, making them the most obscure characters.
+Setup:
+
+To run this program, ensure you have the following dependencies installed:
+
+bash
+
+pip install pyspark
+
+Instructions:
+
+    Mount Google Drive: This program assumes the dataset is located in Google Drive. Ensure you mount your Google Drive by running the provided code.
+
+    Load Dataset: Two files are loaded from Google Drive using PySpark's DataFrame API:
+        Marvel Names.txt: Contains superhero IDs and names.
+        Marvel Graph.txt: Represents connections between superheroes.
+
+    Analyze Data:
+        Calculate the number of connections for each superhero.
+        Identify the minimum number of connections among all superheroes.
+        Extract superheroes with the minimum number of connections.
+
+    Display Results:
+        Show the superheroes with the fewest connections, thus considered the most obscure characters.
+
+Program Structure:
+
+    mostobscuresuperheroes.ipynb: Jupyter Notebook containing the program code.
+    Marvel Names.txt: File containing superhero IDs and names.
+    Marvel Graph.txt: File representing connections between superheroes.
