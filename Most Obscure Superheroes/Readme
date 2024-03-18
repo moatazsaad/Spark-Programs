@@ -6,8 +6,6 @@ Setup:
 
 To run this program, ensure you have the following dependencies installed:
 
-bash
-
 pip install pyspark
 
 Instructions:
